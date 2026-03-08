@@ -55,7 +55,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .step h4{font-family:'Syne',sans-serif;font-size:.95rem;font-weight:700}
 .step p{font-size:.82rem;color:var(--muted);line-height:1.65}
 
-/* FAQ */
+/* UNDERSTAND YOUR BILL */
+.bill-section{padding:5rem 5vw;background:rgba(255,255,255,0.015);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.bill-section .section-sub{max-width:560px;margin-bottom:3rem;color:var(--muted);line-height:1.8}
+.bill-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem;margin-bottom:2rem}
+.bill-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;transition:border-color .2s}
+.bill-card:hover{border-color:rgba(0,212,255,0.25)}
+.bill-card-num{width:32px;height:32px;border-radius:50%;background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.25);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:.8rem;font-weight:700;color:var(--electric);flex-shrink:0;margin-top:.1rem}
+.bill-card h4{font-family:'Syne',sans-serif;font-size:.9rem;font-weight:700;margin-bottom:.35rem}
+.bill-card p{font-size:.82rem;color:var(--muted);line-height:1.65}
+.bill-tip{background:rgba(255,107,26,0.06);border:1px solid rgba(255,107,26,0.2);border-radius:12px;padding:1.2rem 1.5rem;display:flex;gap:1rem;align-items:flex-start}
+.bill-tip-icon{font-size:1.4rem;flex-shrink:0;line-height:1;margin-top:.1rem}
+.bill-tip p{font-size:.88rem;color:var(--muted);line-height:1.7;margin:0}
+.bill-tip strong{color:var(--gold)}
 .faq{padding:5rem 5vw;max-width:760px;margin:0 auto}
 .faq-list{display:flex;flex-direction:column;gap:.8rem}
 .faq-item{border:1px solid var(--border);border-radius:12px;overflow:hidden}
@@ -119,6 +131,7 @@ footer p{font-size:.78rem;color:var(--muted)}
   <ul class="nav-links">
     <li><a href="commercial.html">Commercial</a></li>
     <li><a href="residential.html" class="active">Residential</a></li>
+    <li><a href="#bill">Your Bill</a></li>
   </ul>
   <a href="#quote" class="nav-cta">Get a Quote</a>
 </nav>
@@ -190,6 +203,49 @@ footer p{font-size:.78rem;color:var(--muted)}
         <h4>You Decide, We Switch</h4>
         <p>Like what you see? We handle the switch. Don't like it? No charge, no obligation.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNDERSTAND YOUR BILL -->
+<section class="bill-section" id="bill">
+  <div style="max-width:860px;margin:0 auto">
+    <p class="section-label">Understand your bill</p>
+    <h2 class="section-title">What's actually on your electricity bill?</h2>
+    <p class="section-sub">Most people only look at the total. Here's what every line actually means — and why a fixed-rate plan from Nova makes reading your bill a lot less stressful.</p>
+    <div class="bill-cards">
+      <div class="bill-card">
+        <div class="bill-card-num">1</div>
+        <div>
+          <h4>Energy Charge — the part you can change</h4>
+          <p>This is the per-kWh rate your provider charges. It's the biggest variable line on your bill — and the one we lock in at the lowest rate we can find you. A better rate here directly lowers your total every month.</p>
+        </div>
+      </div>
+      <div class="bill-card">
+        <div class="bill-card-num">2</div>
+        <div>
+          <h4>TDU Delivery — fixed, not negotiable</h4>
+          <p>The Transmission &amp; Distribution Utility (like Oncor or CenterPoint) owns the physical wires to your home. This charge is regulated and identical regardless of which provider you choose — no provider can change it.</p>
+        </div>
+      </div>
+      <div class="bill-card">
+        <div class="bill-card-num">3</div>
+        <div>
+          <h4>Base / Customer Fee — watch for this</h4>
+          <p>Some plans charge a flat monthly account fee of $9–$15 on top of usage. Nova residential plans have no monthly base fee — you pay for electricity, nothing else.</p>
+        </div>
+      </div>
+      <div class="bill-card">
+        <div class="bill-card-num">4</div>
+        <div>
+          <h4>Taxes &amp; Riders — same for everyone</h4>
+          <p>State-mandated fees that fund grid infrastructure and renewable energy programs. These pass-throughs are the same across all providers — but it's worth knowing what you're paying for.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bill-tip">
+      <div class="bill-tip-icon">💡</div>
+      <p><strong>Your true cost per kWh:</strong> Divide your total bill by the kWh used. That's your effective rate — often higher than the advertised number. Send us your bill and we'll show you exactly what a better plan would look like for your home.</p>
     </div>
   </div>
 </section>
