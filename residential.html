@@ -96,12 +96,12 @@
 }
 </script>
 
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
 :root{--navy:#0a0f1e;--deep:#0d1528;--electric:#00d4ff;--gold:#ff6b1a;--warm:#ff7b35;--white:#f4f6fb;--muted:#8898aa;--card:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.08)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--navy);color:var(--white);font-family:'Plus Jakarta Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
+body{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 5vw;background:rgba(10,15,30,0.85);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}
@@ -118,7 +118,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.018) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at center,black 30%,transparent 75%)}
 .hero-content{position:relative;z-index:1;max-width:760px;margin:0 auto}
 .hero-eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(255,107,26,0.35);padding:.35rem 1rem;border-radius:50px;margin-bottom:1.8rem}
-.hero h1{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.4rem,5.5vw,4.2rem);font-weight:800;line-height:1.1;letter-spacing:-.03em;margin-bottom:1.2rem}
+.hero h1{font-family:'Syne',sans-serif;font-size:clamp(2.4rem,5.5vw,4.2rem);font-weight:800;line-height:1.1;letter-spacing:-.03em;margin-bottom:1.2rem}
 .hero h1 .accent{color:var(--gold)}
 .hero-sub{font-size:1.1rem;color:var(--muted);max-width:540px;margin:0 auto 2.5rem;line-height:1.8}
 .hero-cta{display:inline-flex;align-items:center;gap:.6rem;background:var(--gold);color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:500;font-size:.95rem;text-decoration:none;transition:opacity .2s;box-shadow:0 4px 24px rgba(255,107,26,0.25)}
@@ -127,13 +127,13 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 /* SIMPLE PROMISE */
 .promise{padding:5rem 5vw;max-width:1000px;margin:0 auto}
 .section-label{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem}
-.section-title{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.7rem,3vw,2.4rem);font-weight:800;margin-bottom:1rem;letter-spacing:-.02em}
+.section-title{font-family:'Syne',sans-serif;font-size:clamp(1.7rem,3vw,2.4rem);font-weight:800;margin-bottom:1rem;letter-spacing:-.02em}
 .section-sub{color:var(--muted);max-width:500px;line-height:1.8;margin-bottom:3rem}
 .promise-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
 .promise-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:2rem;display:flex;gap:1.2rem;align-items:flex-start;transition:border-color .2s}
 .promise-card:hover{border-color:rgba(255,107,26,0.25)}
 .promise-icon{font-size:1.8rem;flex-shrink:0;line-height:1;margin-top:.1rem}
-.promise-card h4{font-family:'Bricolage Grotesque',sans-serif;font-size:1rem;font-weight:700;margin-bottom:.4rem}
+.promise-card h4{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;margin-bottom:.4rem}
 .promise-card p{font-size:.85rem;color:var(--muted);line-height:1.65}
 
 /* HOW IT WORKS */
@@ -143,8 +143,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;position:relative}
 .steps::before{content:'';position:absolute;top:2.2rem;left:calc(16.6% + 1rem);right:calc(16.6% + 1rem);height:1px;background:linear-gradient(90deg,transparent,rgba(255,107,26,0.3),rgba(255,107,26,0.3),transparent)}
 .step{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.8rem}
-.step-num{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,107,26,0.4);background:rgba(255,107,26,0.08);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:.9rem;color:var(--gold);flex-shrink:0}
-.step h4{font-family:'Bricolage Grotesque',sans-serif;font-size:.95rem;font-weight:700}
+.step-num{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,107,26,0.4);background:rgba(255,107,26,0.08);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:700;font-size:.9rem;color:var(--gold);flex-shrink:0}
+.step h4{font-family:'Syne',sans-serif;font-size:.95rem;font-weight:700}
 .step p{font-size:.82rem;color:var(--muted);line-height:1.65}
 
 /* UNDERSTAND YOUR BILL */
@@ -155,8 +155,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .bill-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;margin-top:3.5rem}
 .bill-visual{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:2rem;position:relative}
 .bill-visual-header{background:rgba(0,212,255,.1);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.5rem;display:flex;justify-content:space-between;align-items:center}
-.bill-visual-header .utility{font-weight:700;font-family:'Bricolage Grotesque',sans-serif}
-.bill-amount{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.5rem;color:var(--gold)}
+.bill-visual-header .utility{font-weight:700;font-family:'Syne',sans-serif}
+.bill-amount{font-family:'Syne',sans-serif;font-weight:800;font-size:1.5rem;color:var(--gold)}
 .bill-line{display:flex;justify-content:space-between;padding:.6rem 0;border-bottom:1px solid var(--border);font-size:.9rem;position:relative;cursor:default}
 .bill-line:last-child{border-bottom:none}
 .bill-line-label{color:var(--muted)}
@@ -164,8 +164,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .tooltip-tag{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:var(--electric);color:var(--navy);font-size:.65rem;font-weight:700;margin-left:.4rem;cursor:pointer;vertical-align:middle}
 .bill-steps{display:flex;flex-direction:column;gap:1.5rem}
 .bill-step{display:flex;gap:1.2rem;align-items:flex-start}
-.step-num{flex-shrink:0;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--electric),#0099cc);color:var(--navy);font-weight:800;font-size:.9rem;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif}
-.step-content h4{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;margin-bottom:.3rem}
+.step-num{flex-shrink:0;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--electric),#0099cc);color:var(--navy);font-weight:800;font-size:.9rem;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif}
+.step-content h4{font-family:'Syne',sans-serif;font-weight:700;margin-bottom:.3rem}
 .step-content p{color:var(--muted);font-size:.9rem}
 .savings-bar{background:rgba(245,197,66,.08);border:1px solid rgba(245,197,66,.2);border-radius:12px;padding:1.2rem 1.5rem;margin-top:2rem;display:flex;align-items:center;gap:1rem}
 .savings-bar .icon{font-size:1.5rem}
@@ -175,7 +175,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .faq{padding:5rem 5vw;max-width:760px;margin:0 auto}
 .faq-list{display:flex;flex-direction:column;gap:.8rem}
 .faq-item{border:1px solid var(--border);border-radius:12px;overflow:hidden}
-.faq-q{width:100%;background:none;border:none;color:var(--white);font-family:'Plus Jakarta Sans',sans-serif;font-size:.92rem;font-weight:500;padding:1.2rem 1.5rem;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;transition:background .2s}
+.faq-q{width:100%;background:none;border:none;color:var(--white);font-family:'DM Sans',sans-serif;font-size:.92rem;font-weight:500;padding:1.2rem 1.5rem;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;transition:background .2s}
 .faq-q:hover{background:rgba(255,255,255,0.03)}
 .faq-q .arrow{color:var(--gold);transition:transform .3s;flex-shrink:0;font-size:1rem}
 .faq-q.open .arrow{transform:rotate(45deg)}
@@ -191,19 +191,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
 .form-group{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.2rem}
 .form-group label{font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:500}
-.form-group input,.form-group select,.form-group textarea{background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;color:var(--white);padding:.75rem 1rem;font-family:'Plus Jakarta Sans',sans-serif;font-size:.9rem;outline:none;transition:border-color .2s;width:100%}
+.form-group input,.form-group select,.form-group textarea{background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;color:var(--white);padding:.75rem 1rem;font-family:'DM Sans',sans-serif;font-size:.9rem;outline:none;transition:border-color .2s;width:100%}
 .form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:rgba(255,107,26,0.5)}
 .form-group select option{background:#0d1528;color:var(--white)}
 .form-group textarea{resize:vertical;min-height:80px}
 .bill-note{background:rgba(255,107,26,0.06);border:1px solid rgba(255,107,26,0.2);border-radius:10px;padding:1rem 1.2rem;display:flex;align-items:center;gap:.8rem;margin-bottom:1.4rem}
 .bill-note p{margin:0;font-size:.88rem;color:#8898aa;line-height:1.6}
 .bill-note a{color:var(--gold);text-decoration:none;font-weight:500}
-.submit-btn{width:100%;padding:1rem;background:linear-gradient(135deg,var(--gold),var(--warm));border:none;border-radius:10px;color:#fff;font-family:'Bricolage Grotesque',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;letter-spacing:.03em;transition:opacity .2s;box-shadow:0 4px 24px rgba(255,107,26,0.25)}
+.submit-btn{width:100%;padding:1rem;background:linear-gradient(135deg,var(--gold),var(--warm));border:none;border-radius:10px;color:#fff;font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;letter-spacing:.03em;transition:opacity .2s;box-shadow:0 4px 24px rgba(255,107,26,0.25)}
 .submit-btn:hover{opacity:.88}
 .form-note{text-align:center;font-size:.78rem;color:var(--muted);margin-top:1rem}
 .success-msg{display:none;text-align:center;padding:3rem 1rem}
 .success-msg .big-check{font-size:3rem;margin-bottom:1rem}
-.success-msg h3{font-family:'Bricolage Grotesque',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:.8rem}
+.success-msg h3{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:.8rem}
 .success-msg p{color:var(--muted);font-size:.9rem}
 
 /* FOOTER */
@@ -458,7 +458,7 @@ footer p{font-size:.78rem;color:var(--muted)}
         </div>
         <div class="bill-note">
           <span style="font-size:1.4rem;">📎</span>
-          <p>Have a copy of your electricity bill? Email it to <a href="/cdn-cgi/l/email-protection#8ae9e5e4fef8ebe9fef9caede5e4e5fcebefe4eff8edf3a4e9e5e7"><span class="__cf_email__" data-cfemail="60030f0e14120103141320070f0e0f1601050e051207194e030f0d">[email&#160;protected]</span></a> after submitting — it helps us find you the best rate!</p>
+          <p>Have a copy of your electricity bill? Email it to <a href="mailto:contracts@gonovaenergy.com">contracts@gonovaenergy.com</a> after submitting — it helps us find you the best rate!</p>
         </div>
         <div class="form-group"><label>Anything else we should know?</label><textarea id="notes" placeholder="e.g. contract ends in March, interested in green energy..."></textarea></div>
         <button class="submit-btn" id="submitBtn" onclick="submitForm()">Get My Free Residential Quote ⚡</button>
@@ -486,7 +486,7 @@ footer p{font-size:.78rem;color:var(--muted)}
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 function toggleFaq(btn) {
   const answer = btn.nextElementSibling;
   const isOpen = answer.classList.contains('open');
@@ -533,4 +533,13 @@ async function submitForm() {
     } else {
       const data = await response.json();
       const msg = data.errors ? data.errors.map(e => e.message).join(', ') : 'Submission failed. Please try again.';
-      alert(msg); btn.disabled = false; btn.textCon
+      alert(msg); btn.disabled = false; btn.textContent = 'Get My Free Residential Quote ⚡';
+    }
+  } catch (err) {
+    alert('Network error — please check your connection and try again.');
+    btn.disabled = false; btn.textContent = 'Get My Free Residential Quote ⚡';
+  }
+}
+</script>
+</body>
+</html>
